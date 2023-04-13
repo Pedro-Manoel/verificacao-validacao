@@ -1,4 +1,4 @@
-package br.com.ufcg.vv.tdd.calculadora.salario.model.calculo;
+package br.com.ufcg.vv.tdd.calculadora.salario.calculo;
 
 import br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario.Funcionario;
 

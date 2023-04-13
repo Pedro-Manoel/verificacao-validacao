@@ -1,6 +1,6 @@
-package br.com.ufcg.vv.tdd.calculadora.salario.model.calculadora;
+package br.com.ufcg.vv.tdd.calculadora.salario.calculadora;
 
-import br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.CalculoSalario;
+import br.com.ufcg.vv.tdd.calculadora.salario.calculo.CalculoSalario;
 import br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario.Funcionario;
 
 public abstract class CalculadoraSalario<T extends Funcionario> {

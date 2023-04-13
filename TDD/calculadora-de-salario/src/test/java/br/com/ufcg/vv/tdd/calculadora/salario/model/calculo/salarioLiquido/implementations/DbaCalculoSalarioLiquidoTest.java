@@ -1,6 +1,6 @@
 package br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations;
 
-import br.com.ufcg.vv.tdd.calculadora.salario.model.calculadora.salarioLiquido.implementations.DbaCalculadoraSalarioLiquido;
+import br.com.ufcg.vv.tdd.calculadora.salario.calculadora.salarioLiquido.implementations.DbaCalculadoraSalarioLiquido;
 import br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario.implementations.Dba;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

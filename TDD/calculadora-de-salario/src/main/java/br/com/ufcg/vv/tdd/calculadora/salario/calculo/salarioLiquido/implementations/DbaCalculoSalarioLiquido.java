@@ -1,6 +1,6 @@
-package br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations;
+package br.com.ufcg.vv.tdd.calculadora.salario.calculo.salarioLiquido.implementations;
 
-import br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.CalculoSalarioLiquido;
+import br.com.ufcg.vv.tdd.calculadora.salario.calculo.salarioLiquido.CalculoSalarioLiquido;
 import br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario.implementations.Dba;
 
 public class DbaCalculoSalarioLiquido implements CalculoSalarioLiquido<Dba> {
