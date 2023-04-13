@@ -8,62 +8,78 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FuncionarioTest {
 
+    private String nome;
+    private String email;
+    private double salarioBase;
+    private String cargo;
     private Funcionario funcionario;
 
     @BeforeEach
     void setUp() {
-        this.funcionario = new Funcionario("João da Silva", "joao.silva@empresa.com", 2000.00, "DESENVOLVEDOR");
+        nome = "João da Silva";
+        email = "joao.silva@empresa.com";
+        salarioBase = 2000.00;
+        cargo = "DESENVOLVEDOR";
+        funcionario = new Funcionario(nome, email, salarioBase, cargo);
     }
 
     @Test
     @DisplayName("Teste para verificar se o nome é igual ao valor inicial")
     void testGetNome() {
-        assertEquals("João da Silva", this.funcionario.getNome());
+        assertEquals(nome, funcionario.getNome());
     }
 
     @Test
     @DisplayName("Teste para verificar se o email é igual ao valor inicial")
     void testGetEmail() {
-        assertEquals("joao.silva@empresa.com", this.funcionario.getEmail());
+        assertEquals(email, funcionario.getEmail());
     }
 
     @Test
     @DisplayName("Teste para verificar se o salário-base é igual ao valor inicial")
     void testGetSalarioBase() {
-        assertEquals(2000.00, this.funcionario.getSalarioBase());
+        assertEquals(salarioBase, funcionario.getSalarioBase());
     }
 
     @Test
     @DisplayName("Teste para verificar se o cargo é igual ao valor inicial")
     void testGetCargo() {
-        assertEquals("DESENVOLVEDOR", this.funcionario.getCargo());
+        assertEquals(cargo, funcionario.getCargo());
     }
 
     @Test
     @DisplayName("Teste para verificar se o nome foi alterado corretamente")
     void testSetNome() {
-        this.funcionario.setNome("Maria da Silva");
-        assertEquals("Maria da Silva", this.funcionario.getNome());
+        String novoNome = "Maria da Silva";
+
+        funcionario.setNome(novoNome);
+        assertEquals(novoNome, funcionario.getNome());
     }
 
     @Test
     @DisplayName("Teste para verificar se o email foi alterado corretamente")
     void testSetEmail() {
-        this.funcionario.setEmail("maria.silva@empresa.com");
-        assertEquals("maria.silva@empresa.com", this.funcionario.getEmail());
+        String novoEmail = "maria.silva@empresa.com";
+
+        funcionario.setEmail(novoEmail);
+        assertEquals(novoEmail, funcionario.getEmail());
     }
 
     @Test
     @DisplayName("Teste para verificar se o salário-base foi alterado corretamente")
     void testSetSalarioBase() {
-        this.funcionario.setSalarioBase(2500.00);
-        assertEquals(2500.00, this.funcionario.getSalarioBase());
+        double novoSalarioBase = 2500.00;
+
+        funcionario.setSalarioBase(novoSalarioBase);
+        assertEquals(novoSalarioBase, funcionario.getSalarioBase());
     }
 
     @Test
     @DisplayName("Teste para verificar se o cargo foi alterado corretamente")
     void testSetCargo() {
-        this.funcionario.setCargo("DBA");
-        assertEquals("DBA", this.funcionario.getCargo());
+        String novoCargo = "DBA";
+
+        funcionario.setCargo(novoCargo);
+        assertEquals(novoCargo, funcionario.getCargo());
     }
 }
