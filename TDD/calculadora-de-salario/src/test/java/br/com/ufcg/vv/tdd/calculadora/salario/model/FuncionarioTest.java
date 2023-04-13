@@ -1,5 +1,6 @@
 package br.com.ufcg.vv.tdd.calculadora.salario.model;
 
+import br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario.Funcionario;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -7,6 +8,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FuncionarioTest {
+
+    static class FuncionarioImplTest extends Funcionario {
+        public FuncionarioImplTest(String nome, String email, double salarioBase, String cargo) {
+            super(nome, email, salarioBase, cargo);
+        }
+    }
 
     private String nome;
     private String email;
@@ -20,7 +27,7 @@ class FuncionarioTest {
         email = "joao.silva@empresa.com";
         salarioBase = 2000.00;
         cargo = "DESENVOLVEDOR";
-        funcionario = new Funcionario(nome, email, salarioBase, cargo);
+        funcionario = new FuncionarioImplTest(nome, email, salarioBase, cargo);
     }
 
     @Test

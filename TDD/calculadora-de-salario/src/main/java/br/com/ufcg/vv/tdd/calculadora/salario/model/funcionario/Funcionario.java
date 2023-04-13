@@ -1,6 +1,7 @@
-package br.com.ufcg.vv.tdd.calculadora.salario.model;
+package br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario;
 
-public class Funcionario {
+
+public abstract class Funcionario {
 
     private String nome;
     private String email;
