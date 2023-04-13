@@ -1,25 +1,22 @@
 package br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations;
 
-import br.com.ufcg.vv.tdd.calculadora.salario.model.calculadora.CalculadoraSalario;
-import br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.CalculoSalarioLiquido;
+import br.com.ufcg.vv.tdd.calculadora.salario.model.calculadora.salarioLiquido.implementations.GerenteCalculadoraSalarioLiquido;
 import br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario.implementations.Gerente;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class GerenteCalculoSalarioLiquidoTest {
 
     private Gerente gerente;
-    private CalculoSalarioLiquido<Gerente> calculoSalarioLiquido;
-    private CalculadoraSalario<Gerente> calculadoraSalario;
+    private GerenteCalculadoraSalarioLiquido calculadoraSalario;
 
     @BeforeEach
     public void setUp() {
         gerente = new Gerente("João da Silva", "joao.silva@empresa.com", 0);
-        calculoSalarioLiquido = new GerenteCalculoSalarioLiquido();
-        calculadoraSalario = new CalculadoraSalario<>();
+        calculadoraSalario = new GerenteCalculadoraSalarioLiquido();
     }
 
     @Test
@@ -27,7 +24,7 @@ class GerenteCalculoSalarioLiquidoTest {
     public void testCalculoSalarioLiquidoGerenteComSalarioIgual5000() {
         gerente.setSalarioBase(5000.0);
 
-        double salarioLiquido = calculadoraSalario.calcular(gerente, calculoSalarioLiquido);
+        double salarioLiquido = calculadoraSalario.calcular(gerente);
 
         assertEquals(3500.0, salarioLiquido);
     }
@@ -37,7 +34,7 @@ class GerenteCalculoSalarioLiquidoTest {
     public void testCalculoSalarioLiquidoGerenteComSalarioMaiorQue5000() {
         gerente.setSalarioBase(6000.0);
 
-        double salarioLiquido = calculadoraSalario.calcular(gerente, calculoSalarioLiquido);
+        double salarioLiquido = calculadoraSalario.calcular(gerente);
 
         assertEquals(4200.0, salarioLiquido);
     }
@@ -47,7 +44,7 @@ class GerenteCalculoSalarioLiquidoTest {
     public void testCalculoSalarioLiquidoGerenteComSalarioMenorQue5000() {
         gerente.setSalarioBase(4000.0);
 
-        double salarioLiquido = calculadoraSalario.calcular(gerente, calculoSalarioLiquido);
+        double salarioLiquido = calculadoraSalario.calcular(gerente);
 
         assertEquals(3200.0, salarioLiquido);
     }

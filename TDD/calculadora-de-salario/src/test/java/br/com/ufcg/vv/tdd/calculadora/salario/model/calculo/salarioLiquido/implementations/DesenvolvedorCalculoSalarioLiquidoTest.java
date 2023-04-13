@@ -1,25 +1,22 @@
 package br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations;
 
-import br.com.ufcg.vv.tdd.calculadora.salario.model.calculadora.CalculadoraSalario;
-import br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.CalculoSalarioLiquido;
+import br.com.ufcg.vv.tdd.calculadora.salario.model.calculadora.salarioLiquido.implementations.DesenvolvedorCalculadoraSalarioLiquido;
 import br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario.implementations.Desenvolvedor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class DesenvolvedorCalculoSalarioLiquidoTest {
 
     private Desenvolvedor desenvolvedor;
-    private CalculoSalarioLiquido<Desenvolvedor> calculoSalarioLiquido;
-    private CalculadoraSalario<Desenvolvedor> calculadoraSalario;
+    private DesenvolvedorCalculadoraSalarioLiquido calculadoraSalario;
 
     @BeforeEach
     public void setUp() {
         desenvolvedor = new Desenvolvedor("João da Silva", "joao.silva@empresa.com", 0);
-        calculoSalarioLiquido = new DesenvolvedorCalculoSalarioLiquido();
-        calculadoraSalario = new CalculadoraSalario<>();
+        calculadoraSalario = new DesenvolvedorCalculadoraSalarioLiquido();
     }
 
     @Test
@@ -27,7 +24,7 @@ class DesenvolvedorCalculoSalarioLiquidoTest {
     public void testCalculoSalarioLiquidoDesenvolvedorIgual3000() {
         desenvolvedor.setSalarioBase(3000.0);
 
-        double salarioLiquido = calculadoraSalario.calcular(desenvolvedor, calculoSalarioLiquido);
+        double salarioLiquido = calculadoraSalario.calcular(desenvolvedor);
 
         assertEquals(2400.0, salarioLiquido);
     }
@@ -37,7 +34,7 @@ class DesenvolvedorCalculoSalarioLiquidoTest {
     public void testCalculoSalarioLiquidoDesenvolvedorMaiorQue3000() {
         desenvolvedor.setSalarioBase(4000.0);
 
-        double salarioLiquido = calculadoraSalario.calcular(desenvolvedor, calculoSalarioLiquido);
+        double salarioLiquido = calculadoraSalario.calcular(desenvolvedor);
 
         assertEquals(3200.0, salarioLiquido);
     }
@@ -47,9 +44,8 @@ class DesenvolvedorCalculoSalarioLiquidoTest {
     public void testCalculoSalarioLiquidoDesenvolvedorMenorQue3000() {
         desenvolvedor.setSalarioBase(2000.0);
 
-        double salarioLiquido = calculadoraSalario.calcular(desenvolvedor, calculoSalarioLiquido);
+        double salarioLiquido = calculadoraSalario.calcular(desenvolvedor);
 
         assertEquals(1800.0, salarioLiquido);
     }
-
 }
