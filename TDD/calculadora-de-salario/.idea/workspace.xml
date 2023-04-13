@@ -59,7 +59,7 @@
       <recent name="br.com.ufcg.vv.tdd.calculadora.salario.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculaSalarioTest">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -96,7 +96,7 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="FuncionarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculaSalarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculadora-de-salario" />
       <extension name="coverage">
         <pattern>
@@ -105,15 +105,83 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model" />
-      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.FuncionarioTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.CalculaSalarioTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculaSalarioTest.testCalculaSalarioDbaIgual2000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculadora-de-salario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.tdd.calculadora.salario.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.CalculaSalarioTest" />
+      <option name="METHOD_NAME" value="testCalculaSalarioDbaIgual2000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculaSalarioTest.testCalculaSalarioDesenvolvedorIgual3000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculadora-de-salario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.tdd.calculadora.salario.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.CalculaSalarioTest" />
+      <option name="METHOD_NAME" value="testCalculaSalarioDesenvolvedorIgual3000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculaSalarioTest.testCalculaSalarioGerenteComSalarioIgual5000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculadora-de-salario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.tdd.calculadora.salario.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.CalculaSalarioTest" />
+      <option name="METHOD_NAME" value="testCalculaSalarioGerenteComSalarioIgual5000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculaSalarioTest.testCalculaSalarioTestadorIgual2000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculadora-de-salario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.tdd.calculadora.salario.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.CalculaSalarioTest" />
+      <option name="METHOD_NAME" value="testCalculaSalarioTestadorIgual2000" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FuncionarioTest" />
+        <item itemvalue="JUnit.CalculaSalarioTest" />
+        <item itemvalue="JUnit.CalculaSalarioTest.testCalculaSalarioGerenteComSalarioIgual5000" />
+        <item itemvalue="JUnit.CalculaSalarioTest.testCalculaSalarioTestadorIgual2000" />
+        <item itemvalue="JUnit.CalculaSalarioTest.testCalculaSalarioDbaIgual2000" />
+        <item itemvalue="JUnit.CalculaSalarioTest.testCalculaSalarioDesenvolvedorIgual3000" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681298598498</updated>
       <workItem from="1681298600004" duration="851000" />
-      <workItem from="1681299486109" duration="1076000" />
+      <workItem from="1681299486109" duration="4344000" />
     </task>
     <servers />
   </component>
