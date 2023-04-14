@@ -8,7 +8,7 @@ Repositório com as atividades desenvolvidas ao longo da disciplina.
 
 ## 📌 Atividades
 
-- [Prática de TDD](TDD/README.md)
+- [Prática de TDD](TDD)
 
 ## 📃 Licença
 
