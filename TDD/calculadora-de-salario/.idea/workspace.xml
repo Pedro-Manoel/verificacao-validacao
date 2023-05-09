@@ -6,24 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9473e91c-c8bd-4849-84a5-ca6449c62f3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculadora/CalculadoraSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculadora/CalculadoraSalario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculadora/salarioLiquido/CalculadoraSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculadora/salarioLiquido/CalculadoraSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculadora/salarioLiquido/implementations/DbaCalculadoraSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculadora/salarioLiquido/implementations/DbaCalculadoraSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculadora/salarioLiquido/implementations/DesenvolvedorCalculadoraSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculadora/salarioLiquido/implementations/DesenvolvedorCalculadoraSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculadora/salarioLiquido/implementations/GerenteCalculadoraSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculadora/salarioLiquido/implementations/GerenteCalculadoraSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculadora/salarioLiquido/implementations/TestadorCalculadoraSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculadora/salarioLiquido/implementations/TestadorCalculadoraSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/CalculoSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculo/CalculoSalario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/CalculoSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculo/salarioLiquido/CalculoSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/DbaCalculoSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculo/salarioLiquido/implementations/DbaCalculoSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/DesenvolvedorCalculoSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculo/salarioLiquido/implementations/DesenvolvedorCalculoSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/GerenteCalculoSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculo/salarioLiquido/implementations/GerenteCalculoSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/TestadorCalculoSalarioLiquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/calculo/salarioLiquido/implementations/TestadorCalculoSalarioLiquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/CalculaSalarioTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/DbaCalculoSalarioLiquidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/DbaCalculoSalarioLiquidoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/DesenvolvedorCalculoSalarioLiquidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/DesenvolvedorCalculoSalarioLiquidoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/GerenteCalculoSalarioLiquidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/GerenteCalculoSalarioLiquidoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/TestadorCalculoSalarioLiquidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ufcg/vv/tdd/calculadora/salario/model/calculo/salarioLiquido/implementations/TestadorCalculoSalarioLiquidoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtro-de-faturas/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../filtro-de-faturas/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,30 +30,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pedro/Documents/UFCG/2020.0 - RAE/LABP2/Lab-7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Pedro/Documents/2022.2/V&amp;V/verificacao-validacao/TDD/calculadora-de-salario/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Pedro/Documents/2022.2/V&V/verificacao-validacao/TDD/calculadora-de-salario/src/test/java/br/com/ufcg/vv/functionalTests/tabelaDecisao",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Pedro/Documents/2022.2/V&V/verificacao-validacao/TDD/calculadora-de-salario/src/main/java/br/com/ufcg/vv/tdd/calculadora/salario/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pedro\Documents\2022.2\V&amp;V\verificacao-validacao\TDD\calculadora-de-salario\src\test\java\br\com\ufcg\vv\functionalTests\tabelaDecisao" />
+      <recent name="C:\Users\Pedro\Documents\2022.2\V&amp;V\verificacao-validacao\TDD\calculadora-de-salario\src\test\java\br\com\ufcg\vv\functionalTests\particaoEquivalencia" />
+      <recent name="C:\Users\Pedro\Documents\2022.2\V&amp;V\verificacao-validacao\TDD\calculadora-de-salario\src\test\java\br\com\ufcg\vv\functionalTests\avl" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -84,21 +72,13 @@
       <recent name="br.com.ufcg.vv.tdd.calculadora.salario.model.funcionario.implementations" />
       <recent name="br.com.ufcg.vv.tdd.calculadora.salario.model" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations" />
+      <recent name="br.com.ufcg.vv.functionalTests.particaoEquivalencia.calculadora.salario.model.calculo.salarioLiquido.implementations" />
+      <recent name="br.com.ufcg.vv.functionalTests.avl.calculadora.salario.model.calculo.salarioLiquido.implementations" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in calculadora-de-salario">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.Main" />
-      <module name="calculadora-de-salario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.ufcg.vv.tdd.calculadora.salario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.br.com.ufcg.vv.functionalTests in calculadora-de-salario">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -135,66 +115,87 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="All in calculadora-de-salario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DbaCalculoSalarioLiquidoTabelaDecisaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculadora-de-salario" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations.DbaCalculoSalarioLiquidoTabelaDecisaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesenvolvedorCalculoSalarioLiquidoTabelaDecisaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculadora-de-salario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations.DesenvolvedorCalculoSalarioLiquidoTabelaDecisaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GerenteCalculoSalarioLiquidoParticaoEquivalenciaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculadora-de-salario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.functionalTests.particaoEquivalencia.calculadora.salario.model.calculo.salarioLiquido.implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.functionalTests.particaoEquivalencia.calculadora.salario.model.calculo.salarioLiquido.implementations" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.functionalTests.particaoEquivalencia.calculadora.salario.model.calculo.salarioLiquido.implementations.GerenteCalculoSalarioLiquidoParticaoEquivalenciaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestadorCalculoSalarioLiquidoTabelaDecisaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculadora-de-salario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations" />
+      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.functionalTests.tabelaDecisao.calculadora.salario.model.calculo.salarioLiquido.implementations.TestadorCalculoSalarioLiquidoTabelaDecisaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.ufcg.vv.functionalTests in calculadora-de-salario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculadora-de-salario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ufcg.vv.functionalTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.functionalTests" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DbaCalculoSalarioLiquidoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculadora-de-salario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations" />
-      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations.DbaCalculoSalarioLiquidoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GerenteCalculoSalarioLiquidoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculadora-de-salario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations" />
-      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.model.calculo.salarioLiquido.implementations.GerenteCalculoSalarioLiquidoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculadora-de-salario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.ufcg.vv.tdd.calculadora.salario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario" />
-      <option name="MAIN_CLASS_NAME" value="br.com.ufcg.vv.tdd.calculadora.salario.MainTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in calculadora-de-salario" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.DbaCalculoSalarioLiquidoTest" />
-        <item itemvalue="JUnit.GerenteCalculoSalarioLiquidoTest" />
+        <item itemvalue="JUnit.br.com.ufcg.vv.functionalTests in calculadora-de-salario" />
+        <item itemvalue="JUnit.TestadorCalculoSalarioLiquidoTabelaDecisaoTest" />
+        <item itemvalue="JUnit.DbaCalculoSalarioLiquidoTabelaDecisaoTest" />
+        <item itemvalue="JUnit.DesenvolvedorCalculoSalarioLiquidoTabelaDecisaoTest" />
+        <item itemvalue="JUnit.GerenteCalculoSalarioLiquidoParticaoEquivalenciaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +210,7 @@
       <workItem from="1681298600004" duration="851000" />
       <workItem from="1681299486109" duration="16160000" />
       <workItem from="1681316463564" duration="7841000" />
+      <workItem from="1683214825463" duration="6390000" />
     </task>
     <servers />
   </component>
