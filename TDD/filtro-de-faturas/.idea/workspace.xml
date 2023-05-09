@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eafe4fb9-c6c9-41dd-abf0-6d33e231754a" name="Changes" comment="" />
+    <list default="true" id="eafe4fb9-c6c9-41dd-abf0-6d33e231754a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/functionalTests/FaturaAVLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functionalTests/FaturaTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +51,8 @@
       <recent name="br.com.ufcg.vv.tdd.filtro.fatura" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FaturaAVLTest">
-    <configuration name="FaturaAVLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FaturaTests">
+    <configuration name="FaturaTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="filtro-de-faturas" />
       <extension name="coverage">
         <pattern>
@@ -59,13 +61,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="functionalTests" />
-      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaAVLTest" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaturaAVLTest.teste06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FaturaTests.teste06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="filtro-de-faturas" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +76,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="functionalTests" />
-      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaAVLTest" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
       <option name="METHOD_NAME" value="teste06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaturaAVLTest.teste10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FaturaTests.teste10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="filtro-de-faturas" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="functionalTests" />
-      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaAVLTest" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
       <option name="METHOD_NAME" value="teste10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaturaAVLTest.teste11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FaturaTests.teste11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="filtro-de-faturas" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +108,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="functionalTests" />
-      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaAVLTest" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
       <option name="METHOD_NAME" value="teste11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaturaAVLTest.teste13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FaturaTests.teste13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="filtro-de-faturas" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +124,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="functionalTests" />
-      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaAVLTest" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
       <option name="METHOD_NAME" value="teste13" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FaturaAVLTest" />
-        <item itemvalue="JUnit.FaturaAVLTest.teste13" />
-        <item itemvalue="JUnit.FaturaAVLTest.teste06" />
-        <item itemvalue="JUnit.FaturaAVLTest.teste11" />
-        <item itemvalue="JUnit.FaturaAVLTest.teste10" />
+        <item itemvalue="JUnit.FaturaTests" />
+        <item itemvalue="JUnit.FaturaTests.teste13" />
+        <item itemvalue="JUnit.FaturaTests.teste06" />
+        <item itemvalue="JUnit.FaturaTests.teste11" />
+        <item itemvalue="JUnit.FaturaTests.teste10" />
       </list>
     </recent_temporary>
   </component>
@@ -151,10 +153,22 @@
       <workItem from="1683320312688" duration="1701000" />
       <workItem from="1683555284217" duration="3424000" />
       <workItem from="1683661596644" duration="119000" />
+      <workItem from="1683663105453" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

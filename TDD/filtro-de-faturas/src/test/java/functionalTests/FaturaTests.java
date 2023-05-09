@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class FaturaAVLTest {
+public class FaturaTests {
 
     @Test
     public void teste01() {
