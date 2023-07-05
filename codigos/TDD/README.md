@@ -1,9 +1,3 @@
-# 🧩 Projetos Desenvolvidos
-Projeto | Código TDD | Código Testes Funcionais
-:--: | :--: | :--:
-Calculadora de Salário | [Link](calculadora-de-salario) | [Link](calculadora-de-salario/src/test/java/br/com/ufcg/vv/functionalTests/)
-Filtro de Faturas | [Link](filtro-de-faturas) | [Link](filtro-de-faturas/src/test/java/functionalTests/)
-
 # ✨ Avaliação da experiência do uso de TDD na prática
 
 Nós enfrentamos um desafio ao adotar o TDD em nosso processo de desenvolvimento. Foi difícil acostumar a escrever os testes antes de começar a escrever o código em si. No entanto, à medida que escrevíamos os testes e observávamos os casos de teste falhando, pudemos identificar facilmente os pontos que precisavam ser corrigidos no código.
