@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eafe4fb9-c6c9-41dd-abf0-6d33e231754a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/functionalTests/FaturaAVLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functionalTests/FaturaTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OOT8zgQoIcUC395pYRezg68tOh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.ufcg.vv.tdd.filtro.fatura" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FaturaTests">
+    <configuration name="FaturaTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="filtro-de-faturas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functionalTests" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaturaTests.teste06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="filtro-de-faturas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functionalTests" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
+      <option name="METHOD_NAME" value="teste06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaturaTests.teste10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="filtro-de-faturas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functionalTests" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
+      <option name="METHOD_NAME" value="teste10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaturaTests.teste11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="filtro-de-faturas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functionalTests" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
+      <option name="METHOD_NAME" value="teste11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaturaTests.teste13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="filtro-de-faturas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functionalTests" />
+      <option name="MAIN_CLASS_NAME" value="functionalTests.FaturaTests" />
+      <option name="METHOD_NAME" value="teste13" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FaturaTests" />
+        <item itemvalue="JUnit.FaturaTests.teste13" />
+        <item itemvalue="JUnit.FaturaTests.teste06" />
+        <item itemvalue="JUnit.FaturaTests.teste11" />
+        <item itemvalue="JUnit.FaturaTests.teste10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eafe4fb9-c6c9-41dd-abf0-6d33e231754a" name="Changes" comment="" />
+      <created>1681430477018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681430477018</updated>
+      <workItem from="1681430478284" duration="1442000" />
+      <workItem from="1683320312688" duration="1701000" />
+      <workItem from="1683555284217" duration="3424000" />
+      <workItem from="1683661596644" duration="119000" />
+      <workItem from="1683663105453" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
