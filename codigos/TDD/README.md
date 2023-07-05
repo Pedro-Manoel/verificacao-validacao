@@ -6,7 +6,7 @@ Filtro de Faturas | [Link](filtro-de-faturas) | [Link](filtro-de-faturas/src/tes
 
 # ✨ Extras
 Projeto | Suite de Testes Funcionais
-:--: | :--: | :--:
+:--: | :--: 
 Calculadora de Salário | [Link](../../extras/SUITE_DE_TESTES_CALCULADORA_DE_SALARIO.pdf)
 Filtro de Faturas | [Link](../../extras/SUITE_DE_TESTES_FILTRO_DE_FATURAS.pdf)
 # ✨ Avaliação da experiência do uso de TDD na prática
