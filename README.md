@@ -1,5 +1,5 @@
 <h1 align="center">
-  <p> 📝 Verificação e Validação de Software - UFCG </p>
+  <p> 📑 Verificação e Validação de Software - UFCG </p>
 </h1>
 
 ## 📝 Descrição
